@@ -1,0 +1,604 @@
+*{
+    margin: 0;
+    padding: 0;
+
+box-sizing: border-box;
+}
+:hover{
+    background-color: rgb(249, 178, 0);
+}
+body{
+    width: 100%;
+    /* overflow-x: hidden; */
+}
+
+/* navbar */
+.navbar{
+    background-color: black;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1;
+  padding: 5px;
+}
+.navbar  .nav-items>ul{
+    display: flex;
+    
+ padding: 10px;
+}
+.navbar   .nav-logo a{
+text-decoration: none;
+
+color: white;
+position: absolute;
+top: 15px;
+}
+
+.navbar   .nav-items>ul>li{
+   list-style-type: none;
+}
+.navbar   .nav-items>ul>li>a{
+   text-decoration: none;
+   padding: 10px;
+   color: white;
+}
+/* home */
+
+
+
+/* products */
+#products {
+    color: blue;
+   background-color: white;
+}
+#products table {
+  border: 70px solid;
+  width: 100%;
+}
+#products table tr td button a{
+    text-decoration:none ;
+    text-align: center;
+    color: white;
+}
+ #products table tr td {
+
+ padding: 25px;
+}
+ #products table tr th {
+   padding: 25px;
+   }
+#products table tr td button {
+  margin-left: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+    cursor: pointer;
+  border: none;
+
+
+width: 70px;
+height: 30px;
+background-color: rgb(12, 0, 248);
+
+}
+#products table tr td button:hover{
+    background-color: rgb(245, 6, 6);
+}
+/* desc */
+.p_one{
+    background-color: black;
+    color: white;
+}
+.p_one .img{
+    /* padding: 30px; */
+    text-align: center;
+    padding-top: 20px;
+}
+.p_one .title .name{
+    padding: 50px;
+}
+.p_one .details .cap h5{
+    padding-left: 75px;
+}
+.p_one .details .size  h5{
+    text-align: justify;
+   text-align: center;
+}
+
+.p_one .details .size  h4{
+ font-size: x-large;
+   text-align: center;
+}
+.p_one .details .ava .button button{
+    /* margin-left: 15px; */
+ 
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(12, 0, 248);
+}
+.p_one .details .ava .button button  a{
+    text-decoration:none ;
+    text-align: center;
+    color: white;
+}
+
+
+.p_two{
+    background-color: black;
+    color: white;
+}
+.p_two .img{
+    /* padding: 30px; */
+    text-align: center;
+    padding-top: 20px;
+}
+.p_two .title .name{
+    padding: 50px;
+}
+.p_two .details .cap h5{
+    padding-left: 75px;
+}
+.p_two .details .size  h5{
+    text-align: justify;
+   text-align: center;
+}
+
+.p_two .details .size  h4{
+ font-size: x-large;
+   text-align: center;
+}
+.p_two .details .ava .button button{
+    /* margin-left: 15px; */
+ 
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(12, 0, 248);
+}
+.p_two .details .ava .button button  a{
+    text-decoration:none ;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+.p_three{
+    background-color: black;
+    color: white;
+}
+.p_three .img{
+    /* padding: 30px; */
+    text-align: center;
+    padding-top: 20px;
+}
+.p_three .title .name{
+    padding: 50px;
+}
+.p_three .details .cap h5{
+    padding-left: 75px;
+}
+.p_three .details .size  h5{
+    text-align: justify;
+   text-align: center;
+}
+
+.p_three .details .size  h4{
+ font-size: x-large;
+   text-align: center;
+}
+.p_three .details .ava .button button{
+    /* margin-left: 15px; */
+ 
+    border-radius:10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(12, 0, 248);
+}
+.p_three .details .ava .button button  a{
+    text-decoration:none ;
+    text-align: center;
+    color: white;
+}
+
+
+  
+
+
+
+
+.p_four{
+    background-color: black;
+    color: white;
+}
+.p_four .img{
+    /* padding: 30px; */
+    text-align: center;
+    padding-top: 20px;
+}
+.p_four .title .name{
+    padding: 50px;
+}
+.p_four .details .cap h5{
+    padding-left: 75px;
+}
+.p_four .details .size  h5{
+    text-align: justify;
+   text-align: center;
+}
+
+.p_four .details .size  h4{
+ font-size: x-large;
+   text-align: center;
+}
+.p_four .details .ava .button button{
+    /* margin-left: 15px; */
+ 
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(12, 0, 248);
+}
+.p_four .details .ava .button button  a{
+    text-decoration:none ;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+.p_five{
+    background-color: black;
+    color: white;
+}
+.p_five .img{
+    /* padding: 30px; */
+    text-align: center;
+    padding-top: 20px;
+}
+.p_five .title .name{
+    padding: 50px;
+}
+.p_five .details .cap h5{
+    padding-left: 75px;
+}
+.p_five .details .size  h5{
+    text-align: justify;
+   text-align: center;
+}
+
+.p_five .details .size  h4{
+ font-size: x-large;
+   text-align: center;
+}
+.p_five .details .ava .button button{
+    /* margin-left: 15px; */
+ 
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(12, 0, 248);
+}
+.p_five .details .ava .button button  a{
+    text-decoration:none ;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+.p_six {
+    background-color: black;
+    color: white;
+}
+.p_six  .img{
+    /* padding: 30px; */
+    text-align: center;
+    padding-top: 20px;
+}
+.p_six  .title .name{
+    padding: 50px;
+}
+.p_six  .details .cap h5{
+    padding-left: 75px;
+}
+.p_six  .details .size  h5{
+    text-align: justify;
+   text-align: center;
+}
+
+.p_six  .details .size  h4{
+ font-size: x-large;
+   text-align: center;
+}
+.p_six  .details .ava .button button{
+    /* margin-left: 15px; */
+ 
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(12, 0, 248);
+}
+.p_six .details .ava .button button  a{
+    text-decoration:none ;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+.p_seven{
+    background-color: black;
+    color: white;
+}
+.p_seven .img{
+    /* padding: 30px; */
+    text-align: center;
+    padding-top: 20px;
+}
+.p_seven .title .name{
+    padding: 50px;
+}
+.p_seven .details .cap h5{
+    padding-left: 75px;
+}
+.p_seven .details .size  h5{
+    text-align: justify;
+   text-align: center;
+}
+
+.p_seven .details .size  h4{
+ font-size: x-large;
+   text-align: center;
+}
+.p_seven .details .ava .button button{
+    /* margin-left: 15px; */
+ 
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(12, 0, 248);
+}
+.p_seven .details .ava .button button  a{
+    text-decoration:none ;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+.p_eight{
+    background-color: black;
+    color: white;
+}
+.p_eight .img{
+    /* padding: 30px; */
+    text-align: center;
+    padding-top: 20px;
+}
+.p_eight .title .name{
+    padding: 50px;
+}
+.p_eight .details .cap h5{
+    padding-left: 75px;
+}
+.p_eight .details .size  h5{
+    text-align: justify;
+   text-align: center;
+}
+
+.p_eight .details .size  h4{
+ font-size: x-large;
+   text-align: center;
+}
+.p_eight .details .ava .button button{
+    /* margin-left: 15px; */
+ 
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(12, 0, 248);
+}
+.p_eight .details .ava .button button  a{
+    text-decoration:none ;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.p_nine{
+    background-color: black;
+    color: white;
+}
+.p_nine .img{
+    /* padding: 30px; */
+    text-align: center;
+    padding-top: 20px;
+}
+.p_nine .title .name{
+    padding: 50px;
+}
+.p_nine .details .cap h5{
+    padding-left: 75px;
+}
+.p_nine .details .size  h5{
+    text-align: justify;
+   text-align: center;
+}
+
+.p_nine .details .size  h4{
+ font-size: x-large;
+   text-align: center;
+}
+.p_nine .details .ava .button button{
+    /* margin-left: 15px; */
+ 
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(12, 0, 248);
+}
+.p_nine .details .ava .button button  a{
+    text-decoration:none ;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.p_ten{
+    background-color: black;
+    color: white;
+}
+.p_ten .img{
+    /* padding: 30px; */
+    text-align: center;
+    padding-top: 20px;
+}
+.p_ten .title .name{
+    padding: 50px;
+}
+.p_ten .details .cap h5{
+    padding-left: 75px;
+}
+.p_ten .details .size  h5{
+    text-align: justify;
+   text-align: center;
+}
+
+.p_ten .details .size  h4{
+ font-size: x-large;
+   text-align: center;
+}
+.p_ten .details .ava .button button{
+    /* margin-left: 15px; */
+ 
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(12, 0, 248);
+}
+.p_ten .details .ava .button button  a{
+    text-decoration:none ;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+.p_eleven{
+    background-color: black;
+    color: white;
+}
+.p_eleven .img{
+    /* padding: 30px; */
+    text-align: center;
+    padding-top: 20px;
+}
+.p_eleven .title .name{
+    padding: 50px;
+}
+.p_eleven .details .cap h5{
+    padding-left: 75px;
+}
+.p_eleven .details .size  h5{
+    text-align: justify;
+   text-align: center;
+}
+
+.p_eleven .details .size  h4{
+ font-size: x-large;
+   text-align: center;
+}
+.p_eleven .details .ava .button button{
+    /* margin-left: 15px; */
+ 
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(12, 0, 248);
+}
+.p_eleven .details .ava .button button  a{
+    text-decoration:none ;
+    text-align: center;
+    color: white;
+}
+
+
+
+.bi-bookmark-check-fill{
+    color: green;
+}
+
+@media (min-width:300px){
+    #products table{
+width: 90%;
+padding: 0;
+margin: 0;
+    }
+    #products table tr td{
+        padding: 5px;
+    }
+    #products table tr th{
+        padding: 5px;
+    }
+    #products {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
