@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        /* Common styles for mobile and larger screens */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            max-width: 400px;
+            width: 90%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        legend {
+            text-align: center;
+        }
+
+        .login {
+            text-align: center;
+        }
+
+        h1 {
+            margin: 10px 0;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            width: 100%;
+            padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+            /* Adjust styling for smaller screens */
+            form {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <form   method="POST" action="../look/look7.html" >
+            <fieldset>
+                <legend><img src="../imgs/login.jpeg" alt="sign" width="200" height="100"></legend>
+                <div class="login ">
+    <h1>
+  Login
+    </h1>
+    <br>
+                </div>
+             
+                    <label for="1">Enter your email :</label>
+                    <input type="email" id="1" name="email" required>
+                    <hr>
+                    <label for="2">Password :</label>
+                    <input type="password"id="2" name="password" required>
+                     <br>
+                           
+        </fieldset>
+        <br>      <br>
+               <input type="submit" value="Login" style="background-color: blue; color:white; border: none; border-radius: 50px; width: 100px; height: 30px;">
+         </form>
+</center>
+               
+</body>
+</html>

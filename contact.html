@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        /* Add responsive CSS here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        form {
+            width: 80%;
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        legend {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            width: 100%;
+            height: 30px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            /* Adjust styling for smaller screens */
+            form {
+                width: 90%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <center>
+        <form   method="POST" action="save.html" >
+            <fieldset>
+                <legend><img src="imgs/Contact.png" alt="sign" width="200" height="100"></legend>
+                <div class="contact ">
+    <h1>
+  Contact Us
+    </h1>
+    <br>
+                </div>
+
+                <label for="1">Enter your name :</label>
+                    <input type="text" id="1" name="name" required>
+                    <hr>
+                    <label for="1">Enter your email :</label>
+                    <input type="email" id="2" name="email" required>
+                    <hr>
+                   <textarea name="message" id="3" cols="60" rows="20"></textarea>
+                   <hr>
+                   <label for="1">Enter your phone :</label>
+                   <input type="text" id="4" name="phone" required>
+                 
+                     <br>
+                           
+        </fieldset>
+        <br>      <br>
+               <input type="submit" value="Login" style="background-color: blue; color:white; border: none; border-radius: 50px; width: 100px; height: 30px;">
+         </form>
+</center>
+               
+</body>
+</html>

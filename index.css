@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+
+box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+#products {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive table layout for smaller screens */
+@media screen and (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+    }
+
+    td {
+        border: none;
+        position: relative;
+    }
+
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        content: attr(data-label);
+    }
+}
+header {
+    background-color: #007BFF;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.nav-items ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-items li {
+    margin: 0 20px;
+}
+.nav-items a {
+    color: white;
+    text-decoration: none;
+}
+section#home {
+    text-align: center;
+}
+section#products {
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+th {
+    background-color: #007BFF;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+button a {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+}
+.footer-logo {
+    font-size: 24px;
+}
+.img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.details {
+    text-align: center;
+}
+
+.cap,
+.size,
+.spac,
+.ava {
+    margin: 10px 0;
+}
+
+.button button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    padding: 10px;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    /* Adjust styling for smaller screens */
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-logo {
+        margin-bottom: 20px;
+    }
+
+    .nav-items {
+        text-align: center;
+    }
+
+    .navbar ul {
+        padding: 0;
+    }
+
+    .navbar li {
+        list-style: none;
+    }
+
+    .navbar a {
+        text-align: center;
+        display: block;
+        padding: 10px;
+    }
+    .nav-items ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-items li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .p_one {
+        padding: 10px;
+    }
+
+    .button button {
+        width: 100%;
+    }
+}
+section {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    /* Adjust styling for smaller screens */
+    h1 {
+        font-size: 20px;
+    }
+}
